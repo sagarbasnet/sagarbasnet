@@ -1,0 +1,77 @@
+body{
+background-image : url("F:\project\myweb\images\welcome.jpg");
+}
+header{
+	background-color : #1C2841;
+	height: 60px;
+	 color: white;
+   
+    clear: left;
+}
+footer {
+   background-color : #1C2841;
+   height: 60px;
+   clear:left;
+  color: white;   
+}
+
+nav{
+	color: white;
+	left:5px;
+	width: 10%;
+	margin : 0;
+	height:100%;
+	background-color : #1C2841;
+ padding : 30px 25px;
+	border: 3px solid #73AD21;
+
+	
+}
+article {
+    margin-left:5px;
+    color: red;
+   
+    overflow: hidden;
+}
+table{
+	border-spacing: 5px;
+	border-collapse:separate;
+	display: block;
+}
+.div1{
+
+	
+	margin-top:5px;
+	font-size: 20px;
+	margin-left: 200px;
+	width:90%;
+	height:9px;
+}
+.btn {
+    border: none; /* Remove borders */
+    color: white; /* Add a text color */
+    padding: 15px 50px; /* Add some padding */
+    cursor: pointer; /* Add a pointer cursor on mouse-over */
+}
+
+.success {background-color: #4CAF50;} /* Green */
+.success:hover {background-color: #46a049;}
+
+.info {background-color: #2196F3;} /* Blue */
+.info:hover {background: #0b7dda;}
+
+.warning {background-color: #ff9800;} /* Orange */
+.warning:hover {background: #e68a00;}
+
+.danger {background-color: #f44336;} /* Red */ 
+.danger:hover {background: #da190b;}
+
+.default {background-color: red; color: white;} /* Gray */ 
+.default:hover {background: black;}
+
+.div3{
+	float: center;
+	margin-top:0 px;
+	background-color: red;
+	margin-left:200px;
+}

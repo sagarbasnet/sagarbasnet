@@ -1,0 +1,107 @@
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header{
+    height: 60px;
+  
+    background-color: #1C2841;
+    
+}
+footer {
+	position: static;
+    padding: 1em;
+    color: white;
+    background-color:#1C2841;
+    clear: left;
+    text-align: center;
+	margin-bottom: 5px;
+}
+
+nav {
+    float: left;
+    max-width: 150px;
+    margin: 0;
+    padding: 1em;
+	background-color: #1C2841;
+	color: white;
+  height:45%;
+}
+
+
+
+article {
+    margin-left: 150px;
+    border-left: 3px solid gray;
+	border-right: 3px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+
+.head1{
+	float:right; 
+	margin-right:1050px;
+	color:white;
+	margin-top:10px;
+	
+}
+.p1{
+	float:right; 
+	margin-right:1000px;
+	color:white;
+	
+	
+}
+.div1{
+
+	
+	margin-top:5px;
+	font-size: 20px;
+	margin-left: 200px;
+	width:90%;
+	height:9px;
+	
+}
+.div2{
+	margin-top:100px;
+	background-color: #5D8AA8;
+	width: 40%;
+	margin-left:200px;
+}
+.btn {
+    border: none; /* Remove borders */
+    color: white; /* Add a text color */
+    padding: 15px 50px; /* Add some padding */
+    cursor: pointer; /* Add a pointer cursor on mouse-over */
+}
+.btn1{
+    border: capitalize; /* Remove borders */
+    color: black; /* Add a text color */
+    padding: 15px 50px; /* Add some padding */
+    cursor: pointer; /* Add a pointer cursor on mouse-over */
+	background-color: #006A4E;
+	margin-left:150px;
+	margin-bottom: 5px;
+	float: center;
+	
+	
+}
+.btn1:hover{
+	background-color: red;
+}
+
+.success {background-color: #4CAF50;} /* Green */
+.success:hover {background-color: #46a049;}
+
+.info {background-color: #2196F3;} /* Blue */
+.info:hover {background: #0b7dda;}
+
+.warning {background-color: #ff9800;} /* Orange */
+.warning:hover {background: #e68a00;}
+
+.danger {background-color: #f44336;} /* Red */ 
+.danger:hover {background: #da190b;}
+
+.default {background-color: red; color: white;} /* Gray */ 
+.default:hover {background: black;}
